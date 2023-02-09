@@ -1,6 +1,6 @@
-# Triangles Testing 
+# Triangles Testing
 
-[![<sagarhedaoo>](https://circleci.com/gh/<sagarhedaoo>/<Triangles-Testing>.svg?style=svg)](https://app.circleci.com/pipelines/github/<sagarhedaoo>/<Triangles-Tesing>?branch=main&filter=all)
+[![<sagarhedaoo>](https://circleci.com/gh/sagarhedaoo/Triangles-Testing.svg?style=svg)](https://app.circleci.com/pipelines/github/sagarhedaoo/Triangles-Tesing?branch=main&filter=all)
 
 Repository for HW 02-A
 
@@ -17,8 +17,6 @@ Deliverable 1 Intial Testing with buggy classifyTriangle():
 | 6       | a, b, d       | InvalidInput     | Error         | Fail         |
 | 7       | -4, -6, 0     | InvalidInput     | InvalidInput  | Pass         |
 | 8       | 0, 0, 0       | InvalidInput     | InvalidInput  | Pass         |
-
-
 
 Deliverable 5 Updated Logic for classifyTriangle():
 
