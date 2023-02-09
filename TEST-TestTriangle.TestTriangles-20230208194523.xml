@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestTriangle.TestTriangles-20230208194523" tests="8" file="TestTriangle.py" time="0.003" timestamp="2023-02-08T19:45:23" failures="0" errors="0" skipped="0">
+	<testcase classname="TestTriangle.TestTriangles" name="testCharInput" time="0.002" timestamp="2023-02-08T19:45:23" file="TestTriangle.py" line="34"/>
+	<testcase classname="TestTriangle.TestTriangles" name="testEquilateralTriangles" time="0.000" timestamp="2023-02-08T19:45:23" file="TestTriangle.py" line="28"/>
+	<testcase classname="TestTriangle.TestTriangles" name="testInvalidInput" time="0.000" timestamp="2023-02-08T19:45:23" file="TestTriangle.py" line="31"/>
+	<testcase classname="TestTriangle.TestTriangles" name="testNegativeInput" time="0.000" timestamp="2023-02-08T19:45:23" file="TestTriangle.py" line="40"/>
+	<testcase classname="TestTriangle.TestTriangles" name="testRightTriangleA" time="0.000" timestamp="2023-02-08T19:45:23" file="TestTriangle.py" line="22"/>
+	<testcase classname="TestTriangle.TestTriangles" name="testRightTriangleB" time="0.000" timestamp="2023-02-08T19:45:23" file="TestTriangle.py" line="25"/>
+	<testcase classname="TestTriangle.TestTriangles" name="testScaleneTriangle" time="0.000" timestamp="2023-02-08T19:45:23" file="TestTriangle.py" line="37"/>
+	<testcase classname="TestTriangle.TestTriangles" name="testZeroInput" time="0.000" timestamp="2023-02-08T19:45:23" file="TestTriangle.py" line="43"/>
+</testsuite>
