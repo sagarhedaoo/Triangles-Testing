@@ -1,4 +1,6 @@
-# Triangles Testing
+# Triangles Testing 
+
+[![<sagarhedaoo>](https://circleci.com/gh/<sagarhedaoo>/<Triangles-Testing>.svg?style=svg)](https://app.circleci.com/pipelines/github/<sagarhedaoo>/<Triangles-Tesing>?branch=main&filter=all)
 
 Repository for HW 02-A
 
