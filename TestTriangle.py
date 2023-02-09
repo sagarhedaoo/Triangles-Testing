@@ -29,6 +29,15 @@ class TestTriangles(unittest.TestCase):
     def testInvalidInput(self):
         self.assertEqual(classifyTriangle(400,400,400),'InvalidInput','400,400,400 is not a valid input')
 
+    def testCharInput(self):
+        self.assertEqual(classifyTriangle('a','b','c'),'InvalidInput','a,b,d is not a Valid Input')
+
+    def testScaleneTriangle(self):
+        self.assertEqual(classifyTriangle(23,24,7),'Scalene','23,24,7 is a Scalene Triangle')
+
+    def testNegativeInput(self):
+        self.assertEqual(classifyTriangle(-4, -6, 0), 'InvalidInput', '-4,-6,0 is not a Valid Input')
+
 if __name__ == '__main__':
     print('Running unit tests')
     unittest.main()
