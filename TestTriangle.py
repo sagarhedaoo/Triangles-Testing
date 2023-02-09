@@ -8,7 +8,6 @@ The primary goal of this file is to demonstrate a simple unittest implementation
 """
 
 import unittest
-import xmlrunner
 import io
 
 from Triangle import classifyTriangle
