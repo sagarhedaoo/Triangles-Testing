@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestTriangle.TestTriangles-20230208192504" tests="8" file="TestTriangle.py" time="0.004" timestamp="2023-02-08T19:25:04" failures="4" errors="1" skipped="0">
+	<testcase classname="TestTriangle.TestTriangles" name="testInvalidInput" time="0.000" timestamp="2023-02-08T19:25:04" file="TestTriangle.py" line="31"/>
+	<testcase classname="TestTriangle.TestTriangles" name="testNegativeInput" time="0.000" timestamp="2023-02-08T19:25:04" file="TestTriangle.py" line="40"/>
+	<testcase classname="TestTriangle.TestTriangles" name="testZeroInput" time="0.000" timestamp="2023-02-08T19:25:04" file="TestTriangle.py" line="43"/>
+	<testcase classname="TestTriangle.TestTriangles" name="testEquilateralTriangles" time="0.000" timestamp="2023-02-08T19:25:04" file="TestTriangle.py" line="28">
+		<failure type="AssertionError" message="'InvalidInput' != 'Equilateral'
+- InvalidInput
++ Equilateral
+ : 1,1,1 should be equilateral"><![CDATA[Traceback (most recent call last):
+  File "/Users/sagarhedaoo/Desktop/Triangles-Testing/TestTriangle.py", line 29, in testEquilateralTriangles
+    self.assertEqual(classifyTriangle(1,1,1),'Equilateral','1,1,1 should be equilateral')
+AssertionError: 'InvalidInput' != 'Equilateral'
+- InvalidInput
++ Equilateral
+ : 1,1,1 should be equilateral
+]]></failure>
+	</testcase>
+	<testcase classname="TestTriangle.TestTriangles" name="testRightTriangleA" time="0.000" timestamp="2023-02-08T19:25:04" file="TestTriangle.py" line="22">
+		<failure type="AssertionError" message="'InvalidInput' != 'Right'
+- InvalidInput
++ Right
+ : 3,4,5 is a Right triangle"><![CDATA[Traceback (most recent call last):
+  File "/Users/sagarhedaoo/Desktop/Triangles-Testing/TestTriangle.py", line 23, in testRightTriangleA
+    self.assertEqual(classifyTriangle(3,4,5),'Right','3,4,5 is a Right triangle')
+AssertionError: 'InvalidInput' != 'Right'
+- InvalidInput
++ Right
+ : 3,4,5 is a Right triangle
+]]></failure>
+	</testcase>
+	<testcase classname="TestTriangle.TestTriangles" name="testRightTriangleB" time="0.000" timestamp="2023-02-08T19:25:04" file="TestTriangle.py" line="25">
+		<failure type="AssertionError" message="'InvalidInput' != 'Right'
+- InvalidInput
++ Right
+ : 5,3,4 is a Right triangle"><![CDATA[Traceback (most recent call last):
+  File "/Users/sagarhedaoo/Desktop/Triangles-Testing/TestTriangle.py", line 26, in testRightTriangleB
+    self.assertEqual(classifyTriangle(5,3,4),'Right','5,3,4 is a Right triangle')
+AssertionError: 'InvalidInput' != 'Right'
+- InvalidInput
++ Right
+ : 5,3,4 is a Right triangle
+]]></failure>
+	</testcase>
+	<testcase classname="TestTriangle.TestTriangles" name="testScaleneTriangle" time="0.000" timestamp="2023-02-08T19:25:04" file="TestTriangle.py" line="37">
+		<failure type="AssertionError" message="'InvalidInput' != 'Scalene'
+- InvalidInput
++ Scalene
+ : 23,24,7 is a Scalene Triangle"><![CDATA[Traceback (most recent call last):
+  File "/Users/sagarhedaoo/Desktop/Triangles-Testing/TestTriangle.py", line 38, in testScaleneTriangle
+    self.assertEqual(classifyTriangle(23,24,7),'Scalene','23,24,7 is a Scalene Triangle')
+AssertionError: 'InvalidInput' != 'Scalene'
+- InvalidInput
++ Scalene
+ : 23,24,7 is a Scalene Triangle
+]]></failure>
+	</testcase>
+	<testcase classname="TestTriangle.TestTriangles" name="testCharInput" time="0.003" timestamp="2023-02-08T19:25:04" file="TestTriangle.py" line="34">
+		<error type="TypeError" message="'&gt;' not supported between instances of 'str' and 'int'"><![CDATA[Traceback (most recent call last):
+  File "/Users/sagarhedaoo/Desktop/Triangles-Testing/TestTriangle.py", line 35, in testCharInput
+    self.assertEqual(classifyTriangle('a','b','c'),'InvalidInput','a,b,d is not a Valid Input')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sagarhedaoo/Desktop/Triangles-Testing/Triangle.py", line 31, in classifyTriangle
+    if a > 200 or b > 200 or c > 200:
+       ^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+]]></error>
+	</testcase>
+</testsuite>

@@ -8,6 +8,8 @@ The primary goal of this file is to demonstrate a simple unittest implementation
 """
 
 import unittest
+import xmlrunner
+import io
 
 from Triangle import classifyTriangle
 
@@ -37,6 +39,9 @@ class TestTriangles(unittest.TestCase):
 
     def testNegativeInput(self):
         self.assertEqual(classifyTriangle(-4, -6, 0), 'InvalidInput', '-4,-6,0 is not a Valid Input')
+
+    def testZeroInput(self):
+        self.assertEqual(classifyTriangle(0 ,0 ,0),'InvalidInput','0,0,0 is not a Valid Input')
 
 if __name__ == '__main__':
     print('Running unit tests')

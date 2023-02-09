@@ -14,3 +14,4 @@ Deliverable 1:
 | 5       | 400, 400, 400 | InvalidInput     | InvalidInput  | Pass         |
 | 6       | a, b, d       | InvalidInput     | Error         | Fail         |
 | 7       | -4, -6, 0     | InvalidInput     | InvalidInput  | Pass         |
+| 8       | 0, 0, 0       | InvalidInput     | InvalidInput  | Pass         |
